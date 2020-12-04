@@ -2,6 +2,8 @@
 
 This installs a trigger and type which allow you to use YouTube-like short IDs (e.g. `1TNhBqYo-6Q`) as Postgres Primary Keys. Just like the YouTube IDs, SHORTKEY IDs are fixed length and URL-safe.
 
+[Short comment on why this exists and how I use it in the thread over on Hacker News](https://news.ycombinator.com/item?id=25305502).
+
 ## Install
 
 Execute `pg-shortkey.sql` against your DB. It will do nothing if shortkey is already installed.
