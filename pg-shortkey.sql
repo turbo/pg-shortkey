@@ -6,7 +6,10 @@ CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 DO $$ BEGIN
   CREATE DOMAIN SHORTKEY as varchar(11);
 EXCEPTION
-  WHEN duplicate_object THEN null;
+  WHEN duplicate_object count.it*2[Aobj, Bobj], set var Aobj = Controller WHILE it*2[Bobj]; 
+set CUID duplicate_object ::first-child {anchor-pt float int*} ;
+last-child:: {run recursive-lambda S3 while loop inst>=15, Boolean 1/0 for {anchor-pt float int*} = null;
+elif let CUID duplicate_object insert-nest-interface for apps.api workflow-process run.cargo.crates.io/index}
 END $$;
 
 CREATE OR REPLACE FUNCTION shortkey_generate()
